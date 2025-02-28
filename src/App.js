@@ -6,7 +6,9 @@ import Login from "./components/login/Login";
 import ForgotPassword from "./components/login/ForgotPassword";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import AboutUs from "./components/AboutUs/AboutUs";  // ✅ Import AboutUs Component
 import Properties from "./components/properties/Properties"; 
+import PropertyCard from "./components/properties/PropertyCard";
 import 'font-awesome/css/font-awesome.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -27,6 +29,8 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/home" element={<Home />} />
         <Route path="/Properties" element={<Properties />} />  {/* ✅ PropHeader is inside this */}
+        <Route path="/PropertyCard" element={<PropertyCard />} />
+        <Route path="/aboutus" element={<AboutUs />} />  {/* ✅ New Route for AboutUs */}
       </Routes>
       {!hideHeaderFooter && <Footer />}
     </>

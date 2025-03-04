@@ -1,0 +1,59 @@
+.footer {
+  background-color: black; /* Black background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer Title */
+.footer-title {
+  color: #ff5722; /* Primary orange theme color */
+  font-weight: bold;
+  font-size: 32px;
+}
+.footerTitle p{
+  font-size: 20px;
+}
+
+/* Social Media Icons */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff5722; /* Orange background */
+  color: white !important; /* Ensure white icon color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon i {
+  color: white !important; /* Force white icon */
+  font-size: 28px;
+}
+
+.social-icon :hover {
+  background-color: #e64a19; /* Darker orange on hover */
+  transform: scale(1.1);
+}
+
+/* Navigation Links */
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.footer-links a:hover {
+  color: #ff5722; /* Orange hover effect */
+  text-decoration: underline;
+}
+
+/* Copyright Section */
+.copyright {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  color: white;
+}

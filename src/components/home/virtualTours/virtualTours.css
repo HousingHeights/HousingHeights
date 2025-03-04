@@ -1,0 +1,29 @@
+.virtual-tours-container {
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+  }
+  .virtual-tours-container h2{
+    font-size: 36px;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 600px;
+    margin: 20px 0;
+  }
+  
+  .map {
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .virtual-tour {
+    margin-top: 20px;
+  }
+  
+  .virtual-tour h3 {
+    margin-bottom: 10px;
+  }
+  

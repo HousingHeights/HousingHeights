@@ -1,0 +1,165 @@
+/* General Container */
+.signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #fffaf5;
+}
+
+/* Left Side - Benefits Section */
+.signup-left {
+  width: 40%;
+  padding: 50px;
+  background: linear-gradient(135deg, #e7704b, #fbeee0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.SignUplogo {
+  width: 180px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.signup-left h3 {
+  font-size: 28px;
+  margin-top: 180px;
+  font-weight: bold;
+  color: #3e2c25;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #3e2c25;
+  display: flex;
+  align-items: center;
+}
+
+/* Right Side - Login Form */
+.signup-right {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #6d4c41;
+  font-size: 30px;
+}
+
+.signup-form {
+  width: 80%;
+  max-width: 400px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #e0c4a7;
+  border-radius: 8px;
+  background: #fdf7f2;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #d88b6c;
+  outline: none;
+}
+
+/* Button Styles */
+.btn {
+  background: #d88b6c;
+  color: white;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #b76b50;
+  transform: translateY(-3px);
+}
+
+.forgot-password-btn {
+  background: #f7e7e8;
+  color: #541a08;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.forgot-password-btn:hover {
+  background: #e8c9cb;
+}
+
+.signup-link {
+  color: #6d4c41;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.signup-link:hover {
+  color: #b8836c;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .signup-left {
+    width: 45%;
+    padding: 40px;
+  }
+  .signup-right {
+    width: 55%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .signup-left,
+  .signup-right {
+    width: 100%;
+    text-align: center;
+  }
+  .SignUplogo {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .signup-left h3 {
+    margin-top: 0;
+  }
+}

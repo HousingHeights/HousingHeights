@@ -1,0 +1,186 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #fffaf5;
+}
+
+.signup-left {
+  width: 40%;
+  padding: 50px;
+  background: linear-gradient(135deg, #e7704b, #fbeee0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.SignUplogo {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.signup-left h3 {
+  font-size: 32px;
+  margin-top: 200px;
+  color: #3e2c25;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #3e2c25;
+  display: flex;
+  align-items: center;
+}
+
+/* Right Side - Signup Form */
+.signup-right {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 20px !important;
+  color: #6d4c41;
+  font-size: 32px;
+}
+
+.signup-form {
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #e0c4a7;
+  border-radius: 8px;
+  background: #fdf7f2;
+  font-size: 20px !important;
+  font-weight: 400;
+  margin-bottom: 20px !important; /* Increased spacing */
+}
+
+/* General Button Styling */
+.btn {
+  background: #f27d2e!important; /* Gradient effect */
+  color: white;
+  padding: 10px !important; /* Increased padding for better visibility */
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  font-size: 21px !important; /* Slightly larger font */
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px; /* Increased spacing */
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  background:  #f66f46 !important; /* Darker shade */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.google-btn {
+  background: #4285f4;
+  color: white;
+  font-size: 20px; /* Slightly larger */
+  font-weight: bold;
+  padding: 14px;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adds spacing between icon & text */
+  margin-top: 15px; /* More spacing */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.google-btn:hover {
+  background: #357ae8;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Go Back Button */
+.go-back-btn {
+  background-color: #6d4c41;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  max-width: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.go-back-btn:hover {
+  background-color: #4e322a;
+  transform: translateY(-3px);
+}
+
+/* Login Link */
+.signup-link {
+  color: #6d4c41;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.signup-link:hover {
+  color: #b8836c;
+  text-decoration: underline;
+}
+
+.signup-right p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .signup-left, .signup-right {
+    width: 100%;
+    text-align: center;
+  }
+}

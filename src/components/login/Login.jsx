@@ -7,51 +7,55 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [successMessage, setSuccessMessage] = useState(""); // State for success message
+  const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate();
 
   // Handle Input Change
   const handleChange = (e) => {
-    if (e.target.name === "email") setEmail(e.target.value);
-    if (e.target.name === "password") setPassword(e.target.value);
+    const { name, value } = e.target;
+    if (name === "email") setEmail(value);
+    if (name === "password") setPassword(value);
   };
 
   // Handle Login
   const handleLogin = async (e) => {
     e.preventDefault();
-    setError(""); // Reset error before login
+    setError("");
+    setSuccessMessage("");
 
     try {
       console.log("🔄 Attempting to log in with:", { email, password });
 
       const response = await axios.post("http://localhost:8080/api/v1/auth/login", { email, password });
 
-      console.log("✅ Response received:", response.data); // Debugging Log
+      console.log("✅ Response received:", response.data);
 
-      // Extract token & role correctly
-      const token = response.data?.token;
-      const role = response.data?.role;  // No 'user' object, so get 'role' directly
-      const name = response.data?.name || "User"; // If backend provides name, use it
+      // Check if OTP verification is required
+      if (response.data?.message === "OTP sent to your email!") {
+        console.log("📩 OTP Required - Redirecting to OTP Verification...");
 
+        // Store email in localStorage for OTP verification
+        localStorage.setItem("email", email);
+        navigate("/verify-otp");
+        return;
+      }
+
+      // Extract token, role, and name after OTP verification
+      const { token, role, name = "User" } = response.data;
       if (!token || !role) {
         throw new Error("❌ Token or role data missing from backend response");
       }
 
-      // Store token & role in localStorage
+      // Store login details in localStorage
       localStorage.setItem("token", token);
       localStorage.setItem("role", role);
       localStorage.setItem("name", name);
 
-      // ✅ Print token & role in console
-      console.log("🎉 Login Successful!");
-      console.log("🔑 JWT Token:", token);
-      console.log(`👤 ${name} logged in as ${role}`);
+      console.log(`🎉 ${name} logged in as ${role}`);
+      setSuccessMessage(`${name} logged in successfully! Redirecting...`);
 
-      // Set success message
-      setSuccessMessage(`${name} logged in as ${role}`);
-
-      // Navigate to home page after a delay
-      setTimeout(() => navigate("/home"), 3000);
+      // Redirect to home after 2 seconds
+      setTimeout(() => navigate("/home"), 2000);
 
     } catch (error) {
       console.error("❌ Login Error:", error.response?.data || error.message);
@@ -82,8 +86,8 @@ const Login = () => {
         {error && <p className="error-message">{error}</p>}
 
         <form onSubmit={handleLogin} className="signup-form">
-          <input type="email" name="email" placeholder="Email Address" onChange={handleChange} required />
-          <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
+          <input type="email" name="email" placeholder="Email Address" value={email} onChange={handleChange} required />
+          <input type="password" name="password" placeholder="Password" value={password} onChange={handleChange} required />
           <button type="submit" className="btn">Login</button>
         </form>
 

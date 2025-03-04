@@ -1,13 +1,13 @@
 import React from "react";
 
 const StarRating = ({ rating }) => {
-  const fullStars = Math.floor(rating);
-  const halfStar = rating % 1 !== 0;
-  
   return (
     <div className="star-rating">
-      {"⭐".repeat(fullStars)}
-      {halfStar && "⭐"}
+      {[...Array(5)].map((_, i) => (
+        <span key={i} className={i < rating ? "filled-star" : "empty-star"}>
+          ★
+        </span>
+      ))}
     </div>
   );
 };

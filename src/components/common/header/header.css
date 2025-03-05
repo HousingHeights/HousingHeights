@@ -1,21 +1,21 @@
 .navbar {
-  background: transparent !important; /* Fully transparent */
+  background: transparent !important; /* Ensure full transparency */
   transition: background-color 0.3s ease-in-out;
-  backdrop-filter: none; /* Glass effect */
-  border:none;
-  box-shadow:none; /*Remove shadows*/
-  transition: all 0.3s ease-in-out;
-  position: fixed; /* Fix the navbar to the top */
+  backdrop-filter: none !important; /* Disable any unwanted effects */
+  border: none !important;
+  box-shadow: none !important;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  margin:0;
+  padding: 0;
 }
 
 .navbar.scrolled {
-  background: rgba(0, 0, 0, 0.9) !important;
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.4) !important; /* Glass effect */
+  backdrop-filter: blur(10px) !important;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -23,8 +23,8 @@ html {
 
 .navbar-brand img {
   height: auto;
-  width: 220px;
-  margin-top: -10px; /* Moves logo slightly up */
+  width: 180px !important;
+  margin-top: -15px; /* Moves logo slightly up */
   margin-left: 30px;
   transition: all 0.3s ease-in-out;
 }
@@ -32,10 +32,10 @@ html {
 /* Make navigation links white */
 .navbar-nav .nav-link {
   color: white !important;
-  font-weight: 600;
+  font-weight: 500;
   font-size: larger;
   transition: color 0.3s ease-in-out;
-  font-size: 30px;
+  font-size: 26px;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 20px;
@@ -43,18 +43,24 @@ html {
 
 /* Hover effect - Slightly lighten */
 .navbar-nav .nav-link:hover {
-  color: #e64a19 !important; 
+  color: #f27d2e!important; 
 
 }
 
 
-.search-icon, .fa-heart {
+.search-icon {
+  font-size: 26px !important; /* Increases icon size */
+  margin-top: 30px !important;
+  cursor: pointer;
+  color: white !important;
+}
+
+.fa-heart {
   font-size: 26px !important; /* Increases icon size */
   margin-top: 20px !important;
   cursor: pointer;
   color: white !important;
 }
-
 .search-bar {
   top: 100%;
   width: 200px;
@@ -78,8 +84,8 @@ html {
 }
 /* Customize the button to a light orange shade */
 .signinbtn{
-  background-color:#ff5722 !important; 
-  border:1px solid #ff5722 !important;
+  background-color:#f27d2e !important; 
+  border:1px solid #f27d2e!important;
   color: white !important;
   padding: 20px !important;
   border-radius: 5px;
@@ -89,8 +95,8 @@ html {
   
 }
 .loginbtn {
-  background-color:#ff5722 !important; 
-  border:1px solid #ff5722 !important;
+  background-color:#f27d2e !important; 
+  border:1px solid #f27d2e !important;
   color: white !important;
   padding:20px !important;
   border-radius: 5px;
@@ -101,7 +107,7 @@ html {
 
 /* Ensure border, padding, and size remain unchanged */
 .loginbtn:hover {
-  background-color: #e64a19 !important;
+  background-color: #f66f46 !important;
   display: inline-block;
   width: auto;
   text-align: center;
@@ -110,7 +116,7 @@ html {
 }
 
 .signinbtn:hover {
-  background-color: #e64a19 !important;
+  background-color: #f66f46 !important;
   display: inline-block;
   width: auto;
   text-align: center;

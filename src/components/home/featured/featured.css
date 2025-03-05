@@ -1,125 +1,124 @@
 /* Featured Section */
 .featured {
-    background: #ffffff; /* Clean white background */
-    padding: 80px 0;
-    text-align: center;
-  }
-  .container{
-    padding-bottom: 80px;
-  }
-  
-  /* Heading Styling */
-  .heading-container {
-    margin-bottom: 70px;
-    animation: fadeIn 1.2s ease-in-out;
-  }
-  
-  .heading-container h1 {
-    font-size: 42px;
-    color: #222; /* Dark text for contrast */
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .heading-container p {
-    font-size: 22px;
-    color: #666; /* Subtle gray for secondary text */
-    font-style: italic;
-  }
-  
-  /* Ensure Featured Section Stacks Content Vertically */
-.featured .container {
-  display: flex;
-  flex-direction: column; /* Stacks heading and cards vertically */
-  align-items: center; /* Centers them */
+  background: #ffffff; /* Clean white background */
+  padding: 80px 0;
   text-align: center;
 }
-  /* Featured Cards Container */
+.container{
+  padding-bottom: 80px;
+}
+
+/* Heading Styling */
+.heading-container {
+  margin-bottom: 70px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.heading-container h1 {
+  font-size: 42px;
+  color: #222; /* Dark text for contrast */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.heading-container p {
+  font-size: 22px;
+  color: #666; /* Subtle gray for secondary text */
+  font-style: italic;
+}
+
+/* Ensure Featured Section Stacks Content Vertically */
+.featured .container {
+display: flex;
+flex-direction: column; /* Stacks heading and cards vertically */
+align-items: center; /* Centers them */
+text-align: center;
+}
+/* Featured Cards Container */
+.featured-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: nowrap;
+}
+
+/* Individual Featured Box */
+.featured-box {
+  background: #f4f2f2; /* Light gray for subtle contrast */
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect */
+.featured-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Container */
+.img-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffcc00, #ff6600); /* Vibrant gradient */
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featured-box:hover .img-container {
+  transform: scale(1.1);
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Featured Text */
+.featured-box h4 {
+  font-size: 28px;
+  color: #333; /* Darker text for readability */
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.featured-box label {
+  font-size: 20px;
+  color: #777;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .featured-cards {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: nowrap;
-  }
-  
-  /* Individual Featured Box */
-  .featured-box {
-    background: #f4f2f2; /* Light gray for subtle contrast */
-    border-radius: 12px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    width: 300px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Hover Effect */
-  .featured-box:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Image Container */
-  .img-container {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 15px;
-    border-radius: 50%;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #ffcc00, #ff6600); /* Vibrant gradient */
-    padding: 10px;
-    transition: transform 0.3s ease-in-out;
   }
-  
-  .featured-box:hover .img-container {
-    transform: scale(1.1);
+}
+
+/* Smooth Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .img-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  /* Featured Text */
-  .featured-box h4 {
-    font-size: 28px;
-    color: #333; /* Darker text for readability */
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  
-  .featured-box label {
-    font-size: 20px;
-    color: #777;
-    font-weight: 500;
-    display: block;
-    margin-top: 10px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .featured-cards {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
-  /* Smooth Fade-in Animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  
+}
+

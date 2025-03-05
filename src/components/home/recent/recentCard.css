@@ -1,0 +1,163 @@
+/* Recent Properties Grid */
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Property Box */
+  .cbox {
+    background: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 450px;
+    height: 500px;
+  }
+  
+  .cbox:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Container */
+  .img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 3px solid #ff9800;
+  }
+  
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover .img img {
+    transform: scale(1.1);
+  }
+  
+  /* Wishlist/Favorite Icon */
+  .heart-icon {
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 8px;
+  }
+  
+  .heart-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .filled-heart {
+    color: #ff4757; /* Red when liked */
+  }
+  
+  .empty-heart {
+    color: #bbb; /* Grey when not liked */
+  }
+  
+  
+  
+  /* Text Section */
+  .text {
+    padding: 20px;
+  }
+  
+  .text h4 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .text p {
+    font-size: 18px !important;
+    color: #777;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Price & Type */
+  .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #e4e8f3;
+    font-size: 22px;
+    font-weight: bold;
+    background: #fff;
+  }
+  
+  .button .btn2 {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+    font-size: 22px;
+  }
+  
+  .button .btn2:hover {
+    background: #e68900;
+  }
+  
+  .button span {
+    color: #444;
+    font-weight: 600;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 1024px) {
+    .content {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 1023px) {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .cbox {
+      width: 90%;
+      height: auto;
+    }
+  
+    .img {
+      height: 250px;
+    }
+  
+    .text h4 {
+      font-size: 22px;
+    }
+  
+    .text p {
+      font-size: 18px;
+    }
+  
+    .button {
+      font-size: 20px;
+      padding: 10px 15px;
+    }
+  
+    .button .btn2 {
+      font-size: 18px;
+      padding: 8px 12px;
+    }
+  }
+  

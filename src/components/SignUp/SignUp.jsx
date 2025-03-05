@@ -68,6 +68,17 @@ const SignUp = () => {
 
   return (
     <div className="signup-container">
+      <div className="signup-left">
+        <img src={"/images/logo.png"} alt="Website Logo" className="SignUplogo" onClick={() => navigate("/")} />
+        <h3>Why Join Us?</h3>
+        <ul className="benefits-list">
+          <li>✔️ Access exclusive deals & offers</li>
+          <li>✔️ Personalized recommendations</li>
+          <li>✔️ Quick & easy sign-in experience</li>
+          <li>✔️ Secure & seamless transactions</li>
+        </ul>
+      </div>
+
       <div className="signup-right">
         <h2>Sign Up</h2>
 

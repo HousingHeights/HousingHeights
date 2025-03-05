@@ -29,8 +29,8 @@ const Header = () => {
 
   const nav = [
     { path: "/", text: "Home" },
-    { path: "/Properties", text: "Properties" },
-    { path: "/", text: "AboutUs" },
+    { path: "/Property", text: "Properties" },
+    { path: "AboutUs", text: "AboutUs" },
     { path: "#contact", text: "Contact" }, 
   ];
 

@@ -9,7 +9,7 @@ const Featured = () => {
       <div className="container">
         {/* Title and Subtitle with animation */}
         <div className="heading-container">
-          <Heading title="🏡 Featured Property Types" subtitle="Discover properties that match your lifestyle." />
+          <Heading title="Featured Property Types" subtitle="Discover properties that match your lifestyle." />
         </div>
 
         {/* Featured Cards */}

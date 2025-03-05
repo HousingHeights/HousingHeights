@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { FaSearch, FaUser, FaBars, FaTimes } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { navData } from "../data/Data";
-import "./propheader.css";
+import "./propertyHeader.css";
 
-const PropHeader = () => {
+const PropertyHeader = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [userDropdown, setUserDropdown] = useState(false);
@@ -57,7 +57,7 @@ const PropHeader = () => {
             {userDropdown && (
               <div className="user-dropdown">
                 <Link to="/profile" onClick={closeSidebar}>Profile</Link>
-                <Link to="/my-properties" onClick={closeSidebar}>My Properties</Link>
+                <Link to="/properties-form" onClick={closeSidebar}>Properties Form</Link>
                 <Link to="/settings" onClick={closeSidebar}>Settings</Link>
                 <Link to="/logout" onClick={closeSidebar}>Logout</Link>
               </div>
@@ -76,7 +76,6 @@ const PropHeader = () => {
             {navData.map((item, index) => (
               <li key={index}>
                 {location.pathname === item.path ? (
-                  // If the user is on "Properties" page, don't navigate
                   <span className="inactive-link">{item.name}</span>
                 ) : (
                   <Link to={item.path} onClick={closeSidebar}>{item.name}</Link>
@@ -90,4 +89,4 @@ const PropHeader = () => {
   );
 };
 
-export default PropHeader;
+export default PropertyHeader;

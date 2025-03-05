@@ -65,7 +65,7 @@ const Hero = () => {
         {/* Search Form */}
         <form className="search-form">
           {/* Location Input */}
-          <div className="box">
+          <div className="box" id="loc">
             <span>City/Street</span>
             <input
               type="text"
@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
 
           {/* Property Type Dropdown */}
-          <div className="box">
+          <div className="box" id="prop">
             <span>Property Type</span>
             <select
               value={propertyType}
@@ -93,7 +93,7 @@ const Hero = () => {
           </div>
 
           {/* Price Range (Min & Max Inputs) */}
-          <div className="box">
+          <div className="box" id="price">
             <span>Price Range</span>
             <div className="price-inputs">
               <input

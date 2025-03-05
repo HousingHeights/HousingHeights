@@ -2,9 +2,9 @@
   width: 100%;
   padding: 90px 5%;
   text-align: center;
-  background: linear-gradient(135deg,#f07651, #e96a43);
+  background: linear-gradient(135deg, #f07651, #e96a43);
   color: #fff;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 
 .insights-title {
@@ -21,16 +21,18 @@
 
 .insights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(5, 1fr); /* Set to display 5 equal-width cards in a row */
+gap:5px;
   justify-content: center;
+  max-width: 100%;
 }
 
 .flip-card {
   background: transparent;
-  width: 350px;
+  width: 300px; /* Ensure it takes full width of its column */
   height: 600px;
   perspective: 1000px;
+
 }
 
 .flip-card-inner {
@@ -62,7 +64,7 @@
 }
 
 .flip-card-front {
-  background:white;
+  background: white;
   color: #222;
 }
 
@@ -81,9 +83,29 @@
 }
 
 .flip-card-back li {
-  font-size: 1.4rem;
-  margin-bottom: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 12px; /* Added more spacing between items */
+  position: relative;
+  padding-left: 20px; /* Added padding to create space for the bullet */
 }
+
+.flip-card-back li::before {
+  content: "•"; /* Custom bullet point */
+  font-size: 1.5rem;
+  color: #f2754f; /* Same color as the back of the card */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.flip-card-back li:nth-child(odd) {
+  color: #ffecd1; /* Light color for odd-numbered items */
+}
+
+.flip-card-back li:nth-child(even) {
+  color: #ffffff; /* Standard color for even-numbered items */
+}
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -96,7 +118,17 @@
   }
 
   .flip-card {
-    width: 260px;
-    height: 240px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .insights-grid {
+    grid-template-columns: repeat(1, 1fr); /* On smaller screens, display 2 cards per row */
+  }
+  .flip-card-back li {
+    font-size: .8rem;
+    margin-bottom: 12px; /* Added more spacing between items */
+    position: relative;
+    padding-left: 20px; /* Added padding to create space for the bullet */
   }
 }

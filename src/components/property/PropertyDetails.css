@@ -1,0 +1,195 @@
+/* Modern Property Details Page */
+.property-details-page {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Smooth hover effect for elevation */
+.property-details-page:hover {
+    transform: translateY(-5px);
+}
+
+/* Stylish Large Property Image */
+.property-image-large {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.18);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 28px;
+    color: #222;
+    margin: 20px 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Text & Pricing */
+p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+    margin: 6px 0;
+}
+
+.property-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+    margin-top: 15px;
+    background: rgba(230, 57, 70, 0.1);
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+/* Wishlist & Contact Buttons */
+.property-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Wishlist Button */
+.wishlist-btn {
+    background: none;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    color: #ff4d4d;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wishlist-btn .heart-icon:hover {
+    transform: scale(1.3);
+}
+
+/* Heart color when filled */
+.wishlist-btn .filled {
+    color: #e63946;
+}
+
+/* Contact Agent Button */
+.contact-btn {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.contact-btn:hover {
+    background: linear-gradient(to right, #0056b3, #003f7f);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Back Link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-link:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Modern Page Background */
+body {
+    background: linear-gradient(to bottom, #f5f7fa, #e9ecef);
+}
+
+/* Property Info Styling */
+.property-info p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* 🌟 Modern Amenities Section */
+.amenities-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Always two columns */
+    gap: 12px; /* Adds spacing between items */
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Individual Amenity */
+.amenity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.amenity:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+    .amenities-container {
+        grid-template-columns: 1fr; /* Switch to single column for small screens */
+    }
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 650px) {
+    .property-details-page {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .property-price {
+        font-size: 20px;
+        padding: 8px 14px;
+    }
+
+    .wishlist-btn, .contact-btn {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    .back-link {
+        font-size: 16px;
+    }
+}

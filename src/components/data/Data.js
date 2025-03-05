@@ -1,9 +1,9 @@
 
 export const navData = [
   { name: "Home", path: "/" },
-  { name: "Properties", path: "/properties" },
-  { name: "About Us", path: "/aboutUs" },
-  { name: "Contact", path: "/contact" },
+  { name: "Properties", path: "/Property" },
+  { name: "About Us", path: "/AboutUs" },
+  { name: "Contact", path: "/#contact" },
 ];
 
 

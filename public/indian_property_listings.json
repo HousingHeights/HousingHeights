@@ -1,0 +1,3504 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 5200000,
+      "area": 1000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "101 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 1",
+        "phone": "+91-987650001"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 2,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 5400000,
+      "area": 1200,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "102 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 2",
+        "phone": "+91-987650002"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 3,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 5600000,
+      "area": 1400,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "103 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 3",
+        "phone": "+91-987650003"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 4,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 5800000,
+      "area": 1600,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "104 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 4",
+        "phone": "+91-987650004"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 5,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 6000000,
+      "area": 800,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "105 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 5",
+        "phone": "+91-987650005"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 6,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 6200000,
+      "area": 1000,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "106 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 6",
+        "phone": "+91-987650006"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 7,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 6400000,
+      "area": 1200,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "107 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 7",
+        "phone": "+91-987650007"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 8,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 6600000,
+      "area": 1400,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "108 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 8",
+        "phone": "+91-987650008"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 9,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 6800000,
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "109 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 9",
+        "phone": "+91-987650009"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 10,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 7000000,
+      "area": 800,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "110 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 10",
+        "phone": "+91-987650010"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 11,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 7200000,
+      "area": 1000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "111 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 11",
+        "phone": "+91-987650011"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 12,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 7400000,
+      "area": 1200,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "112 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 12",
+        "phone": "+91-987650012"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 13,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 7600000,
+      "area": 1400,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "113 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 13",
+        "phone": "+91-987650013"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 14,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 7800000,
+      "area": 1600,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "114 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 14",
+        "phone": "+91-987650014"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 15,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 8000000,
+      "area": 800,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "115 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 15",
+        "phone": "+91-987650015"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 16,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 8200000,
+      "area": 1000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "116 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 16",
+        "phone": "+91-987650016"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 17,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 8400000,
+      "area": 1200,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "117 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 17",
+        "phone": "+91-987650017"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 18,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 8600000,
+      "area": 1400,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "118 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 18",
+        "phone": "+91-987650018"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 19,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 8800000,
+      "area": 1600,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "119 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 19",
+        "phone": "+91-987650019"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 20,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 9000000,
+      "area": 800,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "120 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 20",
+        "phone": "+91-987650020"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 21,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 9200000,
+      "area": 1000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "121 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 21",
+        "phone": "+91-987650021"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 22,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 9400000,
+      "area": 1200,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "122 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 22",
+        "phone": "+91-987650022"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 23,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 9600000,
+      "area": 1400,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "123 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 23",
+        "phone": "+91-987650023"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 24,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 9800000,
+      "area": 1600,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "124 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 24",
+        "phone": "+91-987650024"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 25,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 10000000,
+      "area": 800,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "125 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 25",
+        "phone": "+91-987650025"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 26,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 10200000,
+      "area": 1000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "126 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 26",
+        "phone": "+91-987650026"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 27,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 10400000,
+      "area": 1200,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "127 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 27",
+        "phone": "+91-987650027"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 28,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 10600000,
+      "area": 1400,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "128 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 28",
+        "phone": "+91-987650028"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 29,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 10800000,
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "129 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 29",
+        "phone": "+91-987650029"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 30,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 11000000,
+      "area": 800,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "130 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 30",
+        "phone": "+91-987650030"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 31,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 11200000,
+      "area": 1000,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "131 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 31",
+        "phone": "+91-987650031"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 32,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 11400000,
+      "area": 1200,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "132 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 32",
+        "phone": "+91-987650032"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 33,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 11600000,
+      "area": 1400,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "133 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 33",
+        "phone": "+91-987650033"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 34,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 11800000,
+      "area": 1600,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "134 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 34",
+        "phone": "+91-987650034"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 35,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 12000000,
+      "area": 800,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "135 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 35",
+        "phone": "+91-987650035"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 36,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 12200000,
+      "area": 1000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "136 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 36",
+        "phone": "+91-987650036"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 37,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 12400000,
+      "area": 1200,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "137 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 37",
+        "phone": "+91-987650037"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 38,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 12600000,
+      "area": 1400,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "138 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 38",
+        "phone": "+91-987650038"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 39,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 12800000,
+      "area": 1600,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "139 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 39",
+        "phone": "+91-987650039"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 40,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 13000000,
+      "area": 800,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "140 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 40",
+        "phone": "+91-987650040"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 41,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 13200000,
+      "area": 1000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "141 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 41",
+        "phone": "+91-987650041"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 42,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 13400000,
+      "area": 1200,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "142 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 42",
+        "phone": "+91-987650042"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 43,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 13600000,
+      "area": 1400,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "143 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 43",
+        "phone": "+91-987650043"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 44,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 13800000,
+      "area": 1600,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "144 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 44",
+        "phone": "+91-987650044"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 45,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 14000000,
+      "area": 800,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "145 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 45",
+        "phone": "+91-987650045"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 46,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 14200000,
+      "area": 1000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "146 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 46",
+        "phone": "+91-987650046"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 47,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 14400000,
+      "area": 1200,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "147 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 47",
+        "phone": "+91-987650047"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 48,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 14600000,
+      "area": 1400,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "148 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 48",
+        "phone": "+91-987650048"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 49,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 14800000,
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "149 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 49",
+        "phone": "+91-987650049"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 50,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 15000000,
+      "area": 800,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "150 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 50",
+        "phone": "+91-987650050"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 51,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 15200000,
+      "area": 1000,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "151 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 51",
+        "phone": "+91-987650051"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 52,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 15400000,
+      "area": 1200,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "152 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 52",
+        "phone": "+91-987650052"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 53,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 15600000,
+      "area": 1400,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "153 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 53",
+        "phone": "+91-987650053"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 54,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 15800000,
+      "area": 1600,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "154 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 54",
+        "phone": "+91-987650054"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 55,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 16000000,
+      "area": 800,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "155 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 55",
+        "phone": "+91-987650055"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 56,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 16200000,
+      "area": 1000,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "156 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 56",
+        "phone": "+91-987650056"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 57,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 16400000,
+      "area": 1200,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "157 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 57",
+        "phone": "+91-987650057"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 58,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 16600000,
+      "area": 1400,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "158 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 58",
+        "phone": "+91-987650058"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 59,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 16800000,
+      "area": 1600,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "159 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 59",
+        "phone": "+91-987650059"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 60,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 17000000,
+      "area": 800,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "160 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 60",
+        "phone": "+91-987650060"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 61,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 17200000,
+      "area": 1000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "161 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 61",
+        "phone": "+91-987650061"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 62,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 17400000,
+      "area": 1200,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "162 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 62",
+        "phone": "+91-987650062"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 63,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 17600000,
+      "area": 1400,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "163 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 63",
+        "phone": "+91-987650063"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 64,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 17800000,
+      "area": 1600,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "164 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 64",
+        "phone": "+91-987650064"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 65,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 18000000,
+      "area": 800,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "165 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 65",
+        "phone": "+91-987650065"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 66,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 18200000,
+      "area": 1000,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "166 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 66",
+        "phone": "+91-987650066"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 67,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 18400000,
+      "area": 1200,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "167 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 67",
+        "phone": "+91-987650067"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 68,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 18600000,
+      "area": 1400,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "168 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 68",
+        "phone": "+91-987650068"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 69,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 18800000,
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "169 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 69",
+        "phone": "+91-987650069"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 70,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 19000000,
+      "area": 800,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "170 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 70",
+        "phone": "+91-987650070"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 71,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 19200000,
+      "area": 1000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "171 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 71",
+        "phone": "+91-987650071"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 72,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 19400000,
+      "area": 1200,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "172 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 72",
+        "phone": "+91-987650072"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 73,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 19600000,
+      "area": 1400,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "173 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 73",
+        "phone": "+91-987650073"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 74,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 19800000,
+      "area": 1600,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "174 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 74",
+        "phone": "+91-987650074"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 75,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 20000000,
+      "area": 800,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "175 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 75",
+        "phone": "+91-987650075"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 76,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 20200000,
+      "area": 1000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "176 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 76",
+        "phone": "+91-987650076"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 77,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 20400000,
+      "area": 1200,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "177 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 77",
+        "phone": "+91-987650077"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 78,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 20600000,
+      "area": 1400,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "178 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 78",
+        "phone": "+91-987650078"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 79,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 20800000,
+      "area": 1600,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "179 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 79",
+        "phone": "+91-987650079"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 80,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 21000000,
+      "area": 800,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "180 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 80",
+        "phone": "+91-987650080"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 81,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 21200000,
+      "area": 1000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "181 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 81",
+        "phone": "+91-987650081"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 82,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 21400000,
+      "area": 1200,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "182 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 82",
+        "phone": "+91-987650082"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 83,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 21600000,
+      "area": 1400,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "183 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 83",
+        "phone": "+91-987650083"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 84,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 21800000,
+      "area": 1600,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "184 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 84",
+        "phone": "+91-987650084"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 85,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 22000000,
+      "area": 800,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "185 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 85",
+        "phone": "+91-987650085"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 86,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 22200000,
+      "area": 1000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "186 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 86",
+        "phone": "+91-987650086"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 87,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 22400000,
+      "area": 1200,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "187 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 87",
+        "phone": "+91-987650087"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 88,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 22600000,
+      "area": 1400,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "188 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 88",
+        "phone": "+91-987650088"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 89,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 22800000,
+      "area": 1600,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "189 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 89",
+        "phone": "+91-987650089"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 90,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 23000000,
+      "area": 800,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "190 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 90",
+        "phone": "+91-987650090"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 91,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 23200000,
+      "area": 1000,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "191 Residency Road",
+        "city": "Delhi",
+        "state": "Delhi",
+        "zipCode": "11001",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 91",
+        "phone": "+91-987650091"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 92,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 23400000,
+      "area": 1200,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "192 Residency Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "11002",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 92",
+        "phone": "+91-987650092"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 93,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 23600000,
+      "area": 1400,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "193 Residency Road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zipCode": "11003",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 93",
+        "phone": "+91-987650093"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 94,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 23800000,
+      "area": 1600,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "194 Residency Road",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "11004",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 94",
+        "phone": "+91-987650094"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 95,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 24000000,
+      "area": 800,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "195 Residency Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "11005",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 95",
+        "phone": "+91-987650095"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 96,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 24200000,
+      "area": 1000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "196 Residency Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zipCode": "11006",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 96",
+        "phone": "+91-987650096"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 97,
+      "title": "Spacious 3BHK Villa",
+      "propertyType": "Villa",
+      "listingType": "For Rent",
+      "price": 24400000,
+      "area": 1200,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 3BHK villa with modern amenities.",
+      "location": {
+        "address": "197 Residency Road",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "zipCode": "11007",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 97",
+        "phone": "+91-987650097"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    },
+    {
+      "id": 98,
+      "title": "Spacious 4BHK Flat",
+      "propertyType": "Flat",
+      "listingType": "For Sale",
+      "price": 24600000,
+      "area": 1400,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 4BHK flat with modern amenities.",
+      "location": {
+        "address": "198 Residency Road",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zipCode": "11008",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": true,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 98",
+        "phone": "+91-987650098"
+      },
+      "availabilityForVisits": "Flexible"
+    },
+    {
+      "id": 99,
+      "title": "Spacious 5BHK Independent House",
+      "propertyType": "Independent House",
+      "listingType": "For Rent",
+      "price": 24800000,
+      "area": 1600,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "ownershipType": "Leasehold",
+      "description": "A beautiful 5BHK house with modern amenities.",
+      "location": {
+        "address": "199 Residency Road",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "zipCode": "11009",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": true,
+        "gym": false,
+        "security": true,
+        "garden": true,
+        "liftElevator": false,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": false,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 99",
+        "phone": "+91-987650099"
+      },
+      "availabilityForVisits": "Weekends Only"
+    },
+    {
+      "id": 100,
+      "title": "Spacious 2BHK Apartment",
+      "propertyType": "Apartment",
+      "listingType": "For Sale",
+      "price": 25000000,
+      "area": 800,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "ownershipType": "Freehold",
+      "description": "A beautiful 2BHK apartment with modern amenities.",
+      "location": {
+        "address": "200 Residency Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "11000",
+        "country": "India"
+      },
+      "features": {
+        "swimmingPool": false,
+        "gym": true,
+        "security": true,
+        "garden": false,
+        "liftElevator": true,
+        "powerBackup": true,
+        "parking": true,
+        "petFriendly": true,
+        "internetCableTV": true
+      },
+      "seller": {
+        "name": "Seller 100",
+        "phone": "+91-987650100"
+      },
+      "availabilityForVisits": "Weekdays Only"
+    }
+  ]
+}

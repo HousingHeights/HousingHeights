@@ -1,6 +1,6 @@
 /* Recent Property Section */
 .recent {
-  background: #f5f3f3; /* Clean white background */
+  background: #f5f3f3;
   padding: 80px 0;
   text-align: center;
 }
@@ -11,9 +11,9 @@
   animation: fadeIn 1.2s ease-in-out;
 }
 
-.recent .container h1{
+.recent .container h1 {
   font-size: 42px;
-  color: #222; /* Dark text for contrast */
+  color: #222;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -25,214 +25,18 @@
   margin-top: 10px;
 }
 
-/* Recent Properties Grid */
-.recent .content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Dynamic column layout */
-  gap: 25px;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-
-
 /* Ensure Recent Section Stacks Content Vertically */
 .recent .container {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center align */
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
+
 /* Add space below the heading */
 .recent .heading-container {
-  margin-bottom: 50px; /* Creates space below heading */
+  margin-bottom: 50px;
 }
-
-/* Ensure recent cards don't overlap with heading */
-.recent .content {
-  margin-top: 50px; /* Adds extra space between heading and cards */
-}
-
-
-
-
-/* Property Box */
-.recent .box {
-  background: #f9f9f9;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-  width: 500px;
-  height: 500px;
-}
-
-
-.recent .box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
-
-/* Image Container */
-.recent .img {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-  border-bottom: 3px solid #ff9800;
-}
-
-.recent .img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-}
-
-.recent .box:hover .img img {
-  transform: scale(1.1);
-}
-
-/* Category Tag */
-.recent .category {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.recent .category span {
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 13px;
-  display: inline-block;
-  transition: background 0.3s ease-in-out;
-}
-
-.recent .category span.for-sale {
-  background: rgba(37, 181, 121, 0.2);
-  color: #25b579;
-}
-
-.recent .category span.for-rent {
-  background: rgba(255, 152, 0, 0.2);
-  color: #ff9800;
-}
-
-/* Favorite Icon */
-.recent .category i {
-  font-size: 20px;
-  color: #bec7d8;
-  cursor: pointer;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  transition: color 0.3s ease-in-out;
-}
-
-.recent .category i:hover {
-  color: #ff5757;
-}
-
-/* Text Section */
-.recent .text {
-  padding: 20px;
-}
-
-.recent .text h4 {
-  font-size: 26px;
-  color: #333;
-  font-weight: 600;
-}
-
-.recent .text p {
-  font-size: 20px;
-  color: #777;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-/* Price & Type */
-.recent .button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  border-top: 1px solid #e4e8f3;
-  font-size: 24px;
-  font-weight: bold;
-  background: #fff;
-}
-
-.recent .button .btn2 {
-  background: #ff9800;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 6px;
-  transition: background 0.3s ease-in-out;
-  font-size: 22px;
-}
-
-.recent .button .btn2:hover {
-  background: #e68900;
-}
-
-.recent .button span {
-  color: #444;
-  font-weight: 600;
-}
-
-/* Responsive Design */
-@media (min-width: 1024px) {
-  .recent .content {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
-  }
-}
-
-@media (max-width: 1023px) {
-  .recent .content {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
-  }
-}
-
-@media (max-width: 768px) {
-  .recent .content {
-    grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
-  }
-
-  .recent .box {
-    width: 90%; /* Reduce width to make it responsive */
-    height: auto; /* Adjust height dynamically */
-  }
-
-  .recent .img {
-    height: 250px; /* Reduce image height */
-  }
-
-  .recent .text h4 {
-    font-size: 22px; /* Decrease heading size */
-  }
-
-  .recent .text p {
-    font-size: 18px; /* Adjust paragraph size */
-  }
-
-  .recent .button {
-    font-size: 20px; /* Reduce button text size */
-    padding: 10px 15px; /* Adjust padding */
-  }
-
-  .recent .button .btn2 {
-    font-size: 18px; /* Reduce button font size */
-    padding: 8px 12px; /* Adjust button padding */
-  }
-}
-
 
 /* Smooth Fade-in Animation */
 @keyframes fadeIn {

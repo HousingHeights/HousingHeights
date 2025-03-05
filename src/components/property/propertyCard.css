@@ -1,0 +1,158 @@
+/* Property Card */
+.property-card {
+  width: 100%;
+  max-width: 320px; /* Adapts dynamically */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Container */
+.property-image-container {
+  width: 100%;
+  height: auto; /* Adjusts based on image aspect ratio */
+  max-height: 220px; /* Limits excessive height */
+  overflow: hidden;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.property-image:hover {
+  transform: scale(1.05);
+}
+
+/* Property Details */
+.property-details {
+  padding: 15px;
+  text-align: center;
+  flex-grow: 1; /* Pushes footer to the bottom if needed */
+}
+
+.property-details h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.property-details p {
+  font-size: 15px;
+  margin: 4px 0;
+  color: #666;
+}
+
+/* Price */
+.property-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+  background: rgba(40, 167, 69, 0.1);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+/* Footer with Wishlist and Contact Button */
+.property-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-top: 1px solid #ddd;
+  margin-top: auto; /* Ensures the footer stays at the bottom */
+}
+
+/* Wishlist Button */
+.wishlist-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heart-icon {
+  font-size: 24px;
+  color: #aaa;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.heart-icon.filled {
+  color: red;
+  transform: scale(1.1);
+}
+
+/* Contact Button */
+.contact-btn {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(to right, #0056b3, #003f7f);
+  transform: scale(1.05);
+}
+
+/* 🛠 Responsive Design */
+
+/* Grid Layout for Cards */
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adapts dynamically */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: start; /* Ensures cards align at the top */
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 480px) {
+  .property-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .property-card {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .property-details h2 {
+    font-size: 18px;
+  }
+
+  .property-price {
+    font-size: 16px;
+  }
+
+  .contact-btn {
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+}

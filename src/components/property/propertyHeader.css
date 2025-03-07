@@ -8,7 +8,10 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     color: white;
   }
-  
+  .wishlist-link{
+    color: white!important;
+    font-size: 24px;
+  }
   /* Logo - Made Smaller */
   .logo img {
     width: 180px; /* Adjust the size */
@@ -33,6 +36,10 @@
     margin-top: 18px;
     margin-left: 15px;
     padding: 0;
+    background-color:#f27d2e;
+    border: none;
+    outline: none;
+    color:white;
   }
   
   .location-tag {
@@ -75,7 +82,7 @@
     height: 45px; /* Increased for better visibility */
     width: 50px; /* Adjusted for better spacing */
     border: none;
-    background-color: rgb(236, 145, 103); /* White background */
+    background-color: #f27d2e; /* White background */
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -83,12 +90,17 @@
     justify-content: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for visibility */
     margin-left:20px;
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 5px; /* Space between text and icon */
   }
   
   .search-icon {
     font-size: 22px; /* Bigger icon for visibility */
-    color: #FF4500 !important; /* Bright Orange-Red */
+    color: white !important; /* Bright Orange-Red */
     margin-bottom: 15px;
+    vertical-align: middle;
+    transform: translateY(-3px); /* Moves the heart upwards */
   }
   
   /* Right Side Icons */

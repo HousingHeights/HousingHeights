@@ -1,8 +1,33 @@
 import React, { useState } from "react";
 import { FaSearch, FaUser, FaBars, FaTimes } from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { navData } from "../data/Data";
 import "./propertyHeader.css";
+
+const UserProfile = ({ setUserDropdown, userDropdown, closeSidebar }) => {
+  const navigate = useNavigate(); // Initialize navigate function
+
+  const handleLogout = () => {
+    localStorage.removeItem("authToken"); // Remove authentication token
+    localStorage.removeItem("user");  // If user data is stored, remove it
+    setUserDropdown(false); // Close dropdown
+    navigate("/"); // Redirect to home page after logout
+  };
+
+  return (
+    <div className="user-profile" onClick={() => setUserDropdown(!userDropdown)}>
+      <FaUser />
+      {userDropdown && (
+        <div className="user-dropdown">
+           <button onClick={() => { navigate("/profile"); closeSidebar(); }}>Profile</button>
+          <button onClick={() => { navigate("/properties-form"); closeSidebar(); }}>Properties Form</button>
+          <button onClick={() => { navigate("/setting"); closeSidebar(); }}>Settings</button>
+          <button className="logout-btn" onClick={handleLogout}>Logout</button>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const PropertyHeader = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -52,17 +77,10 @@ const PropertyHeader = () => {
 
         {/* Right-Side Icons */}
         <div className="right-section">
-          <div className="user-profile" onClick={() => setUserDropdown(!userDropdown)}>
-            <FaUser />
-            {userDropdown && (
-              <div className="user-dropdown">
-                <Link to="/profile" onClick={closeSidebar}>Profile</Link>
-                <Link to="/properties-form" onClick={closeSidebar}>Properties Form</Link>
-                <Link to="/settings" onClick={closeSidebar}>Settings</Link>
-                <Link to="/logout" onClick={closeSidebar}>Logout</Link>
-              </div>
-            )}
-          </div>
+          {/* Wishlist Link Added Here */}
+          <Link to="/wishlist" className="wishlist-link">Wishlist</Link>
+
+          <UserProfile setUserDropdown={setUserDropdown} userDropdown={userDropdown} closeSidebar={closeSidebar} />
 
           <FaBars className="hamburger" onClick={() => setIsSidebarOpen(true)} />
         </div>
@@ -76,6 +94,7 @@ const PropertyHeader = () => {
             {navData.map((item, index) => (
               <li key={index}>
                 {location.pathname === item.path ? (
+                  // If the user is on "Properties" page, don't navigate
                   <span className="inactive-link">{item.name}</span>
                 ) : (
                   <Link to={item.path} onClick={closeSidebar}>{item.name}</Link>

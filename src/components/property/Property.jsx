@@ -69,7 +69,7 @@ const Property = () => {
     <div className="properties-page">
       <PropertyHeader />
       <header className="properties-header">
-        <h1>Properties</h1>
+       
       </header>
 
       <div className="property-content">

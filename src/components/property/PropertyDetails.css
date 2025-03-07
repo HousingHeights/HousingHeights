@@ -10,12 +10,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-/* Smooth hover effect for elevation */
+/* Hover Effect */
 .property-details-page:hover {
     transform: translateY(-5px);
 }
 
-/* Stylish Large Property Image */
+/* Large Property Image */
 .property-image-large {
     width: 100%;
     max-height: 420px;
@@ -23,7 +23,24 @@
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.18);
 }
-
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f27d2e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #d96518;
+  }
+  
 /* Header Styling */
 h1 {
     font-size: 28px;
@@ -62,22 +79,42 @@ p {
 
 /* Wishlist Button */
 .wishlist-btn {
-    background: none;
-    font-size: 26px;
+    background: #f27d2e;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
-    color: #ff4d4d;
-    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(242, 125, 46, 0.3);
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 5px; /* Space between text and icon */
 }
 
-.wishlist-btn .heart-icon:hover {
-    transform: scale(1.3);
+/* Heart icon adjustment */
+.wishlist-btn .heart-icon {
+    vertical-align: middle;
+    transform: translateY(-3px); /* Moves the heart upwards */
+    font-size: 24px; /* Adjust size if needed */
 }
 
 /* Heart color when filled */
 .wishlist-btn .filled {
-    color: #e63946;
+    color: white;
 }
+
+.wishlist-btn:hover {
+    background: #f66f46;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(242, 125, 46, 0.4);
+}
+ .wishlist-link{
+    color:#f27d2e !important;
+    font-size: 24px !important;
+ }
 
 /* Contact Agent Button */
 .contact-btn {
@@ -87,16 +124,16 @@ p {
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
-    background: linear-gradient(to right, #007bff, #0056b3);
+    background: #f27d2e;
     color: white;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+    box-shadow: 0px 4px 10px rgba(242, 125, 46, 0.3);
 }
 
 .contact-btn:hover {
-    background: linear-gradient(to right, #0056b3, #003f7f);
+    background: #f66f46;
     transform: scale(1.05);
-    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.4);
+    box-shadow: 0px 6px 15px rgba(242, 125, 46, 0.4);
 }
 
 /* Back Link */
@@ -116,11 +153,6 @@ p {
     transform: scale(1.1);
 }
 
-/* Modern Page Background */
-body {
-    background: linear-gradient(to bottom, #f5f7fa, #e9ecef);
-}
-
 /* Property Info Styling */
 .property-info p {
     display: flex;
@@ -131,11 +163,11 @@ body {
     color: #333;
 }
 
-/* 🌟 Modern Amenities Section */
+/* Amenities Section */
 .amenities-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Always two columns */
-    gap: 12px; /* Adds spacing between items */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
     margin-top: 20px;
     padding: 15px;
     background: #f9f9f9;
@@ -143,7 +175,6 @@ body {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Individual Amenity */
 .amenity {
     display: flex;
     align-items: center;
@@ -159,37 +190,4 @@ body {
 
 .amenity:hover {
     transform: scale(1.05);
-}
-
-/* Responsive for smaller screens */
-@media (max-width: 600px) {
-    .amenities-container {
-        grid-template-columns: 1fr; /* Switch to single column for small screens */
-    }
-}
-
-/* 📱 Responsive Design */
-@media (max-width: 650px) {
-    .property-details-page {
-        width: 95%;
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .property-price {
-        font-size: 20px;
-        padding: 8px 14px;
-    }
-
-    .wishlist-btn, .contact-btn {
-        font-size: 16px;
-        padding: 10px 16px;
-    }
-
-    .back-link {
-        font-size: 16px;
-    }
 }

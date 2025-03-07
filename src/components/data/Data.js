@@ -44,57 +44,57 @@ export const propertyTypes = [
       id: 1,
       cover: "../images/list/p-1.png",
       name: "Red Carpet Real Estate",
-      location: "210 Zirak Road, Canada",
+      location: "210 MG Road, Mumbai",
       category: "For Rent",
-      price: "$3,700",
+      price: "₹3,00,000",
       type: "Apartment",
     },
     {
       id: 2,
       cover: "../images/list/p-2.png",
       name: "Fairmount Properties",
-      location: "5698 Zirak Road, NewYork",
+      location: "5698 Bannerghatta Road, Bengaluru",
       category: "For Sale",
-      price: "$9,750",
+      price: "₹8,50,00,000",
       type: "Condos",
     },
     {
       id: 3,
       cover: "../images/list/p-7.png",
       name: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
+      location: "5624 Connaught Place, Delhi",
       category: "For Rent",
-      price: "$5,860",
+      price: "₹4,80,000",
       type: "Offices",
     },
     {
       id: 4,
       cover: "../images/list/p-4.png",
       name: "Herringbone Realty",
-      location: "5621 Liverpool, London",
+      location: "5621 Park Street, Kolkata",
       category: "For Sale",
-      price: "$7,540",
+      price: "₹6,25,00,000",
       type: "Homes & Villas",
     },
     {
       id: 5,
       cover: "../images/list/p-5.png",
       name: "Brick Lane Realty",
-      location: "210 Montreal Road, Canada",
+      location: "210 Anna Salai, Chennai",
       category: "For Rent",
-      price: "$4,850",
+      price: "₹3,90,000",
       type: "Commercial",
     },
     {
       id: 6,
       cover: "../images/list/p-6.png",
-      name: "Banyon Tree Realty",
-      location: "210 Zirak Road, Canada",
+      name: "Banyan Tree Realty",
+      location: "210 Banjara Hills, Hyderabad",
       category: "For Sale",
-      price: "$2,742",
+      price: "₹2,10,00,000",
       type: "Apartment",
     },
-  ]
+  ];  
  
   export const steps = [
     {
@@ -117,27 +117,37 @@ export const propertyTypes = [
 
   export const whyChooseUsData = [
     {
-      title: "Secure Transactions",
-      description:
-        "We ensure safe deals with verified listings and legal support.",
       icon: "🔒",
+      title: "Secure Transactions",
+      description: "We ensure end-to-end encryption for all your transactions.",
     },
     {
+      icon: "✔️",
       title: "Verified Listings",
-      description: "Every property is thoroughly vetted to avoid fraud.",
-      icon: "✅",
+      description: "All properties go through a strict verification process.",
     },
     {
-      title: "Legal Support",
-      description: "Get legal assistance for hassle-free transactions.",
-      icon: "⚖️",
+      icon: "📜",
+      title: "Legal Assistance",
+      description: "Expert legal guidance for smooth ownership transfers.",
     },
     {
-      title: "Direct Chat & Support",
-      description: "Chat with property owners and get real-time assistance.",
-      icon: "💬",
+      icon: "📞",
+      title: "24/7 Support",
+      description: "Get round-the-clock support for all your queries.",
     },
+    {
+      icon: "🚀",
+      title: "Fast Processing",
+      description: "We speed up the process so you get what you need, quickly.",
+    },  
+    {
+      icon: "🌎",
+      title: "Global Reach",
+      description: "Connect with buyers and sellers from across the world.",
+    }
   ];
+  
   export const testimonials = [
     {
       id: 1,

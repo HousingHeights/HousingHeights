@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-
+import { useNavigate } from "react-router-dom";
+import "./propertiesForm.css"
 const PropertiesForm = () => {
   const [formData, setFormData] = useState({});
   const [photoCount, setPhotoCount] = useState(0);
   const [videoCount, setVideoCount] = useState(0);
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -73,6 +75,9 @@ const PropertiesForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="p-4 space-y-4">
+      <button type="button" className="go-back-btn" onClick={() => navigate("/Property")}>
+        ← Go Back
+      </button>
       {/* Property Information */}
       <fieldset className="space-y-2">
         <legend className="text-lg font-bold">Property Information</legend>
@@ -168,7 +173,7 @@ const PropertiesForm = () => {
           <input type="checkbox" name="terms" onChange={handleCheckboxChange} className="mr-2" />
           I agree to the Terms & Conditions.
         </label>
-        <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">Submit</button>
+        <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded submitbtn">Submit</button>
       </fieldset>
     </form>
   );

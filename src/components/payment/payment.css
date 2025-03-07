@@ -1,0 +1,168 @@
+/* Payment Component Wrapper */
+.payment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #d96518, #f27d2e);
+  }
+  
+  /* Payment Container */
+  .payment-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Go Back Button */
+  .payment__back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #d96518;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .payment__back-button:hover {
+    background: #b85614;
+  }
+  
+  /* Title */
+  .payment__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Payment Method Selection */
+  .payment__method {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .payment__method button {
+    padding: 10px 15px;
+    border: 2px solid #d96518;
+    background: white;
+    color: #d96518;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .payment__method button.active {
+    background: #d96518;
+    color: white;
+  }
+  
+  .payment__method button:hover {
+    background: #b85614;
+    color: white;
+  }
+  
+  /* Payment Form */
+  .payment__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input Fields */
+  .payment__form input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  .payment__form input:focus {
+    border-color: #d96518;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(217, 101, 24, 0.5);
+  }
+  
+  /* Card Details */
+  .payment__card-details {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .payment__card-details input {
+    flex: 1;
+  }
+  
+  /* Payment Button */
+  .payment__btn {
+    background: linear-gradient(135deg, #d96518, #f27d2e);
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .payment__btn:hover {
+    background: linear-gradient(135deg, #b85614, #e06c22);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(217, 101, 24, 0.4);
+  }
+  
+  /* UPI Payment */
+  .payment__upi {
+    text-align: center;
+  }
+  
+  .payment__upi p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .payment__qr-code {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid #d96518;
+  }
+  
+  /* Card Logos */
+  .payment__card-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .payment__card-icons img {
+    width: 40px;
+    height: auto;
+    filter: grayscale(50%);
+    transition: 0.3s;
+  }
+  
+  .payment__card-icons img:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  

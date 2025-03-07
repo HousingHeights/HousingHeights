@@ -22,47 +22,49 @@ const Login = () => {
     e.preventDefault();
     setError("");
     setSuccessMessage("");
-
+  
     try {
       console.log("🔄 Attempting to log in with:", { email, password });
-
+  
       const response = await axios.post("http://localhost:8080/api/v1/auth/login", { email, password });
-
+  
       console.log("✅ Response received:", response.data);
-
+  
       // Check if OTP verification is required
       if (response.data?.message === "OTP sent to your email!") {
         console.log("📩 OTP Required - Redirecting to OTP Verification...");
-
+        
         // Store email in localStorage for OTP verification
         localStorage.setItem("email", email);
         navigate("/verify-otp");
         return;
       }
-
+  
       // Extract token, role, and name after OTP verification
-      const { token, role, name = "User" } = response.data;
-      if (!token || !role) {
-        throw new Error("❌ Token or role data missing from backend response");
+      const { token, role = "User", name = "Guest" } = response.data;
+      if (!token) {
+        throw new Error("❌ Token is missing from backend response");
       }
-
+  
       // Store login details in localStorage
       localStorage.setItem("token", token);
       localStorage.setItem("role", role);
       localStorage.setItem("name", name);
-
+      localStorage.setItem("email", email);
+  
       console.log(`🎉 ${name} logged in as ${role}`);
       setSuccessMessage(`${name} logged in successfully! Redirecting...`);
-
-      // Redirect to home after 2 seconds
-      setTimeout(() => navigate("/home"), 2000);
-
+  
+      // Redirect and refresh UI immediately
+      navigate("/home");
+      window.location.reload();
+  
     } catch (error) {
       console.error("❌ Login Error:", error.response?.data || error.message);
       setError(error.response?.data?.message || "Login failed. Please try again.");
     }
   };
-
+  
   return (
     <div className="signup-container">
       <div className="signup-left">

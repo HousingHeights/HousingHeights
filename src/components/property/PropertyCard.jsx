@@ -1,16 +1,21 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { WishlistContext } from "./WishlistContext";
 import ContactPopup from "./ContactPopup";
 import "./propertyCard.css";
 
+const API_KEY = "Hqt8At0Wx5LlhLLPy7l6hmPxw0WHdqFUJBDr4NLMhLdb6fH7v8ZOHPpH"; // Replace with your actual API key
+
 const PropertyCard = ({ property }) => {
-  const [wishlisted, setWishlisted] = useState(false);
+  const navigate = useNavigate();
+  const { wishlist, addToWishlist, removeFromWishlist } = useContext(WishlistContext);
+  const isWishlisted = wishlist.some((item) => item.id === property.id);
+
   const [imageUrl, setImageUrl] = useState("");
   const [showPopup, setShowPopup] = useState(false);
 
-  const API_KEY = "Hqt8At0Wx5LlhLLPy7l6hmPxw0WHdqFUJBDr4NLMhLdb6fH7v8ZOHPpH";
-
+  // Function to determine image search query based on property type
   const getSearchQuery = (propertyType) => {
     const queryMap = {
       "Villa": "luxury house exterior",
@@ -25,6 +30,7 @@ const PropertyCard = ({ property }) => {
     return queryMap[propertyType] || "real estate property exterior";
   };
 
+  // Fetch property image
   useEffect(() => {
     const fetchImages = async () => {
       try {
@@ -46,6 +52,20 @@ const PropertyCard = ({ property }) => {
     fetchImages();
   }, [property.propertyType]);
 
+  // Handle Wishlist Click
+  const handleWishlistClick = () => {
+    if (isWishlisted) {
+      removeFromWishlist(property.id);
+    } else {
+      addToWishlist(property);
+    }
+  };
+
+  // Handle "Book Now" Click
+  const handleBookNow = () => {
+    navigate("/payment", { state: { property } });
+  };
+
   return (
     <div className="property-card">
       {/* Clickable area wrapped in Link for navigation */}
@@ -63,10 +83,11 @@ const PropertyCard = ({ property }) => {
       </Link>
 
       <div className="property-footer">
-        <button className="wishlist-btn" onClick={() => setWishlisted(!wishlisted)}>
-          {wishlisted ? <FaHeart className="heart-icon filled" /> : <FaRegHeart className="heart-icon" />}
+        <button className="pwishlist-btn" onClick={handleWishlistClick}>
+          {isWishlisted ? <FaHeart className="pheart-icon filled" /> : <FaRegHeart className="heart-icon" />}
         </button>
         <button className="contact-btn" onClick={() => setShowPopup(true)}>Contact Agent</button>
+        <button className="book-now-btn" onClick={handleBookNow}>Book Now</button>
       </div>
 
       {showPopup && <ContactPopup property={property} closePopup={() => setShowPopup(false)} />}

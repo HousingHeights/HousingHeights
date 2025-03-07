@@ -98,7 +98,7 @@ const SignUp = () => {
             <option value="ADMIN">Admin</option>
           </select>
 
-          <button type="submit" className="btn">Sign Up</button>
+          <button type="submit" className="signbtn">Sign Up</button>
         </form>
 
         {/* Google OAuth Integration */}

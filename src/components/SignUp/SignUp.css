@@ -85,7 +85,7 @@ input, select {
 }
 
 /* General Button Styling */
-.btn {
+.signbtn {
   background: #f27d2e!important; /* Gradient effect */
   color: white;
   padding: 10px !important; /* Increased padding for better visibility */

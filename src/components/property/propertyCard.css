@@ -70,34 +70,37 @@
 /* Footer with Wishlist and Contact Button */
 .property-footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 12px 15px;
-  border-top: 1px solid #ddd;
-  margin-top: auto; /* Ensures the footer stays at the bottom */
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /* Wishlist Button */
-.wishlist-btn {
-  background: none;
+.pwishlist-btn {
+  background: #f27d2e;
+  color: white;
   border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+
 }
 
-.heart-icon {
-  font-size: 24px;
-  color: #aaa;
-  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+.pheart-icon {
+  font-size: 28px !important;
+  color: #555; /* Darker gray for visibility */
 }
 
-.heart-icon.filled {
-  color: red;
-  transform: scale(1.1);
+.pheart-icon.filled {
+  color:white;
 }
 
 /* Contact Button */
 .contact-btn {
-  background: linear-gradient(to right, #007bff, #0056b3);
+  background: #f27d2e;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -109,7 +112,7 @@
 }
 
 .contact-btn:hover {
-  background: linear-gradient(to right, #0056b3, #003f7f);
+  background: #f66f46;
   transform: scale(1.05);
 }
 
@@ -155,4 +158,20 @@
     padding: 7px 12px;
     font-size: 14px;
   }
+}
+.book-now-btn {
+  background: #f27d2e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-now-btn:hover {
+  background: #f66f46;
+  transform: scale(1.05);
 }

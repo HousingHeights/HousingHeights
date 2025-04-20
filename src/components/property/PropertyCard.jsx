@@ -87,7 +87,7 @@ const PropertyCard = ({ property }) => {
           {isWishlisted ? <FaHeart className="pheart-icon filled" /> : <FaRegHeart className="heart-icon" />}
         </button>
         <button className="contact-btn" onClick={() => setShowPopup(true)}>Contact Agent</button>
-        <button className="book-now-btn" onClick={handleBookNow}>Book Now</button>
+        <button className="book-now-btn" onClick={handleBookNow}>Buy Now</button>
       </div>
 
       {showPopup && <ContactPopup property={property} closePopup={() => setShowPopup(false)} />}
